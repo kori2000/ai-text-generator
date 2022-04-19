@@ -33,19 +33,19 @@ make down
 ```
 
 API Call  `POST` request to:
-```json
+```
 http://localhost:4600/text
 ```
 
 With `JSON` Body, where you put your keywords or sentence
-```json
+```
 {
     "keywords": "This is app, that creates description text for an app"
 }
 ```
 
 Will return the following result in `text/html`:
-```json
+```
 This is app, that creates description text for an app, similar to what I am writing here, as the result is..
 ```
 
