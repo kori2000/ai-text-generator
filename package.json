@@ -1,0 +1,27 @@
+{
+  "name": "ai-text-generator",
+  "version": "1.0.0",
+  "description": "A generic text is generated with the assistance of keywords via an AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kori2000/ai-text-generator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kori2000/ai-text-generator/issues"
+  },
+  "homepage": "https://github.com/kori2000/ai-text-generator#readme",
+  "dependencies": {
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "moment": "^2.29.3",
+    "nodemon": "^2.0.15"
+  }
+}
