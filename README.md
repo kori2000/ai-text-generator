@@ -1,8 +1,13 @@
-# ai-text-generator
+# GPT2 Model Text Generator
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/kori2000/telegram-bot/blob/main/LICENSE)
 [![Unicorn](https://img.shields.io/badge/nyancat-approved-ff69b4.svg)](https://www.youtube.com/watch?v=QH2-TGUlwu4)
 
-A generic text is generated with the assistance of keywords via an AI
+Texts are generated automatically with the help of the Hugging Face GP2 model. To do this, formulate an elastic set of keywords or short sentences and let the AI self-generate them.
+
+- https://huggingface.co/gpt2
+
+<strong>CAUTION</strong>: A token is required to use the API. Please generate a new one for free on the website:
+- https://huggingface.co/join
 
 ## Installation
 
