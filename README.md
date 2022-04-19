@@ -13,6 +13,10 @@ Please adjust the .env file before starting the Container.
 
 # Server Settings
 SERVER_PORT=4600
+
+# Authorization Token for huggingface.co
+MODEL_URL=https://api-inference.huggingface.co/models/gpt2
+BEARER_TOKEN=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
 ```
 
 ## Starting
@@ -26,6 +30,23 @@ make up
 
 # 🛑 Stop docker container
 make down
+```
+
+API Call  `POST` request to:
+```json
+http://localhost:4600/text
+```
+
+With `JSON` Body, where you put your keywords or sentence
+```json
+{
+    "keywords": "This is app, that creates description text for an app"
+}
+```
+
+Will return the following result in `text/html`:
+```json
+This is app, that creates description text for an app, similar to what I am writing here, as the result is..
 ```
 
 ## Contributing
